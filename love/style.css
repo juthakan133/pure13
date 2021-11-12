@@ -1,0 +1,40 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 100%;
+    font-size: 12px;
+    line-height: 1.5;
+    background: #f0f4fb;
+    -webkit-font-smoothing: antialised;
+    -moz-osx-font-smoothing: grayscle;
+}
+.site-container {
+    margin: 2rem auto;
+    max-width: calc(100% - 8opx);
+}
+.article-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(265px, 1fr));
+    gap: 2rem;
+}
+.article-image {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.article-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px 20px 0 0;
+}
+.article-card {
+    background: white;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+.article-card:hover {
+    box-shadow: 0 4px 20px 0 rgba(34,68,123,0.2);
+    cursor: pointer;
+}
+.articel-content {
+    padding: 2rem;
+}
